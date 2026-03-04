@@ -1,0 +1,34 @@
+===== AERT TOOLKIT OUTPUT =====
+
+--- Factorial Tests ---
+Factorial(0) = 1
+Factorial(1) = 1
+Factorial(5) = 120
+Factorial(10) = 3628800
+
+--- Fibonacci Tests ---
+Naive Fib(5) = 5, Calls = 15
+Memo  Fib(5) = 5, Calls = 9
+Naive Fib(10) = 55, Calls = 177
+Memo  Fib(10) = 55, Calls = 19
+Naive Fib(20) = 6765, Calls = 21891
+Memo  Fib(20) = 6765, Calls = 39
+Naive Fib(30) = 832040, Calls = 2692537
+Memo  Fib(30) = 832040, Calls = 59
+
+--- Tower of Hanoi (N = 3) ---
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+Total Moves: 7
+
+--- Binary Search Tests ---
+Search 7: 3
+Search 1: 0
+Search 13: 6
+Search 2: -1
+Empty list test: -1
